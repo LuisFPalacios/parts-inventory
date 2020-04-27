@@ -43,6 +43,10 @@ deletePart = async (req, res) => {
 
 
 }
+getPartById = async (req, res) => {
+
+
+}
 
 getParts = async (req, res) => {
     await Part.find({}, (err, parts) => {
